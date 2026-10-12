@@ -28,7 +28,7 @@ class SedmitsaEntity(Entity):
             model="Bulgarian working-day calendar",
             sw_version="1.0.0",
             entry_type=DeviceEntryType.SERVICE,
-            configuration_url="https://pnscripts.com/marketplace/sedmitsa",
+            configuration_url="https://pnscripts.com/marketplace/ha-sedmitsa",
         )
 
     async def async_added_to_hass(self) -> None:

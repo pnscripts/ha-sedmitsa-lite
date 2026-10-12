@@ -40,7 +40,7 @@ or English).
 The full edition, Sedmitsa, adds the school calendar with school-day sensors,
 your own extra days off and working days, the monthly working-hours norm and
 three actions (count working days, add working days, check a date):
-https://pnscripts.com/marketplace/sedmitsa. Lite is complete on its own.
+https://pnscripts.com/marketplace/ha-sedmitsa. Lite is complete on its own.
 
 ## Tests
 
