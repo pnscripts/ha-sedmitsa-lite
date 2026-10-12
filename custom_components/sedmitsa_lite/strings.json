@@ -1,0 +1,102 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Bulgarian working-day calendar",
+        "description": "Holidays by the Labour Code, moved days off and government decisions.",
+        "data": {
+          "name": "Name",
+          "workdays": "Working days of the week",
+          "use_declared_days": "Include non-working days declared by the government",
+          "enlighteners_day_off": "1 November is a day off (schools and universities)",
+          "names_language": "Language of holiday names"
+        },
+        "data_description": {
+          "use_declared_days": "For example 31 December 2025 and 2 January 2026 (euro changeover).",
+          "enlighteners_day_off": "Turn on for a school or university; for everyone else 1 November is a working day."
+        }
+      }
+    },
+    "error": {
+      "no_workdays": "Choose at least one working day."
+    },
+    "abort": {
+      "already_configured": "A calendar with this name already exists."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Sedmitsa Lite settings",
+        "data": {
+          "workdays": "Working days of the week",
+          "use_declared_days": "Include non-working days declared by the government",
+          "enlighteners_day_off": "1 November is a day off (schools and universities)",
+          "names_language": "Language of holiday names"
+        },
+        "data_description": {
+          "use_declared_days": "For example 31 December 2025 and 2 January 2026 (euro changeover).",
+          "enlighteners_day_off": "Turn on for a school or university; for everyone else 1 November is a working day."
+        }
+      }
+    },
+    "error": {
+      "no_workdays": "Choose at least one working day."
+    }
+  },
+  "selector": {
+    "weekday": {
+      "options": {
+        "mon": "Monday",
+        "tue": "Tuesday",
+        "wed": "Wednesday",
+        "thu": "Thursday",
+        "fri": "Friday",
+        "sat": "Saturday",
+        "sun": "Sunday"
+      }
+    },
+    "names_language": {
+      "options": {
+        "auto": "Same as Home Assistant",
+        "bg": "Български",
+        "en": "English"
+      }
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "working_today": {
+        "name": "Working day today"
+      },
+      "working_tomorrow": {
+        "name": "Working day tomorrow"
+      }
+    },
+    "sensor": {
+      "day_type": {
+        "name": "Today",
+        "state": {
+          "working_day": "Working day",
+          "weekend": "Weekend",
+          "public_holiday": "Public holiday",
+          "moved_day_off": "Moved day off",
+          "declared_day_off": "Declared day off",
+          "custom_day_off": "Own day off",
+          "custom_working_day": "Own working day"
+        }
+      },
+      "next_day_off": {
+        "name": "Next day off"
+      },
+      "next_working_day": {
+        "name": "Next working day"
+      }
+    },
+    "calendar": {
+      "holidays": {
+        "name": "Holidays and days off"
+      }
+    }
+  }
+}

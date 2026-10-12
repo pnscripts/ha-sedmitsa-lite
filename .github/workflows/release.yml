@@ -1,0 +1,18 @@
+name: Release zip
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  zip:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: cd custom_components/sedmitsa_lite && zip -qr -X "$GITHUB_WORKSPACE/sedmitsa_lite.zip" . -x '__pycache__/*'
+      - run: gh release upload "${{ github.event.release.tag_name }}" sedmitsa_lite.zip --clobber
+        env:
+          GH_TOKEN: ${{ github.token }}

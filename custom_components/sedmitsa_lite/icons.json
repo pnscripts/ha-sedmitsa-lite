@@ -1,0 +1,34 @@
+{
+  "entity": {
+    "binary_sensor": {
+      "working_today": {
+        "default": "mdi:briefcase-outline",
+        "state": {
+          "off": "mdi:sofa-outline"
+        }
+      },
+      "working_tomorrow": {
+        "default": "mdi:briefcase-clock-outline",
+        "state": {
+          "off": "mdi:sofa-outline"
+        }
+      }
+    },
+    "sensor": {
+      "day_type": {
+        "default": "mdi:calendar-today"
+      },
+      "next_day_off": {
+        "default": "mdi:calendar-star"
+      },
+      "next_working_day": {
+        "default": "mdi:calendar-arrow-right"
+      }
+    },
+    "calendar": {
+      "holidays": {
+        "default": "mdi:calendar-heart"
+      }
+    }
+  }
+}

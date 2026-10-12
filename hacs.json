@@ -1,0 +1,8 @@
+{
+  "name": "Sedmitsa Lite",
+  "homeassistant": "2026.10.0",
+  "render_readme": true,
+  "country": ["BG"],
+  "zip_release": true,
+  "filename": "sedmitsa_lite.zip"
+}
