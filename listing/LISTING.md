@@ -9,7 +9,7 @@ Rules: https://hacs.xyz/docs/publish/include/ (checked 2026-10-12 and 2026-10-15
 - title: `Add pnscripts/ha-sedmitsa-lite`; body = the template with every box ticked and the links: current release https://github.com/pnscripts/ha-sedmitsa-lite/releases/tag/v1.0.0 , HACS action and hassfest action https://github.com/pnscripts/ha-sedmitsa-lite/actions/runs/38740515025 (re-run Validate first if older than a few weeks and use the new run link). Do not request reviews.
 
 
-1. Done 2026-10-15. (Was: create the public repo `github.com/pnscripts/ha-sedmitsa-lite`, push `main`. Repo settings: description "Bulgarian working days and holidays for Home Assistant", **Issues on**, topics `home-assistant hacs integration bulgaria holidays`. Social preview: `listing/social-preview-1280x640.png`.
+1. Done 2026-10-15: public repo `github.com/pnscripts/ha-sedmitsa-lite`, push `main`. Repo settings: description "Bulgarian working days and holidays for Home Assistant", **Issues on**, topics `home-assistant hacs integration bulgaria holidays`. Social preview: `listing/social-preview-1280x640.png`.
 2. The Validate workflow (HACS action + Hassfest) must pass with no ignores. Public repos do not use the org's $0 Actions budget.
 3. Create a full GitHub **release** `v1.0.0` (not just a tag). The Release workflow attaches `sedmitsa_lite.zip` (hacs.json `zip_release`). `make dist` builds the same zip locally.
 4. Brand: the integration ships `custom_components/sedmitsa_lite/brand/icon.png` (+ @2x and dark), which HACS accepts in place of a home-assistant/brands PR.
