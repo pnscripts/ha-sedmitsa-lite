@@ -3,10 +3,10 @@
   "name": "Sedmitsa Lite",
   "codeowners": ["@pnscripts"],
   "config_flow": true,
-  "documentation": "https://github.com/pnscripts/sedmitsa-lite",
+  "documentation": "https://github.com/pnscripts/ha-sedmitsa-lite",
   "integration_type": "service",
   "iot_class": "calculated",
-  "issue_tracker": "https://github.com/pnscripts/sedmitsa-lite/issues",
+  "issue_tracker": "https://github.com/pnscripts/ha-sedmitsa-lite/issues",
   "requirements": [],
   "single_config_entry": false,
   "version": "1.0.0"

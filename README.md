@@ -6,11 +6,11 @@ a holiday falls on a weekend and includes the non-working days the
 government declares. Everything is computed locally: no cloud, no account,
 no API key.
 
-![Sedmitsa Lite entities a day before Christmas](https://raw.githubusercontent.com/pnscripts/sedmitsa-lite/main/listing/entities-1280x720.png)
+![Sedmitsa Lite entities a day before Christmas](https://raw.githubusercontent.com/pnscripts/ha-sedmitsa-lite/main/listing/entities-1280x720.png)
 
 ## Install
 
-- HACS: search for **Sedmitsa Lite** (or add `https://github.com/pnscripts/sedmitsa-lite` as a custom repository of type Integration), install, restart.
+- HACS: search for **Sedmitsa Lite** (or add `https://github.com/pnscripts/ha-sedmitsa-lite` as a custom repository of type Integration), install, restart.
 - Manual: copy `custom_components/sedmitsa_lite` into your configuration's `custom_components` folder and restart.
 
 Then **Settings > Devices & services > Add integration > Sedmitsa Lite**: give the calendar a name, keep Monday to Friday, submit.
